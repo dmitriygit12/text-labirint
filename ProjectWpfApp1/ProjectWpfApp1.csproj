@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\crossroad_1.jpg" />
+    <None Remove="Images\crossroad_2.jpg" />
+    <None Remove="Images\crossroad_3.jpg" />
+    <None Remove="Images\crossroad_4.jpg" />
+    <None Remove="Images\crossroad_5.jpg" />
+    <None Remove="Images\finish_room_1.jpg" />
+    <None Remove="Images\finish_room_2.jpg" />
+    <None Remove="Images\finish_room_3.jpg" />
+    <None Remove="Images\finish_room_4.jpg" />
+    <None Remove="Images\room_1.jpg" />
+    <None Remove="Images\room_2.jpg" />
+    <None Remove="Images\room_3.jpg" />
+    <None Remove="Images\room_4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\crossroad_1.jpg" />
+    <Resource Include="Images\crossroad_2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\crossroad_3.jpg" />
+    <Resource Include="Images\crossroad_4.jpg" />
+    <Resource Include="Images\crossroad_5.jpg" />
+    <Resource Include="Images\finish_room_1.jpg" />
+    <Resource Include="Images\finish_room_2.jpg" />
+    <Resource Include="Images\finish_room_3.jpg" />
+    <Resource Include="Images\finish_room_4.jpg" />
+    <Resource Include="Images\room_1.jpg" />
+    <Resource Include="Images\room_2.jpg" />
+    <Resource Include="Images\room_3.jpg" />
+    <Resource Include="Images\room_4.jpg" />
+  </ItemGroup>
+
+</Project>
