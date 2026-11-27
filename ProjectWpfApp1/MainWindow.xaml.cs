@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
@@ -79,8 +79,8 @@ namespace ProjectWpfApp1
             {
                 if (action == "Закрыть")
                 {
-                    ToggleView();
                     Print("");
+                    ToggleView();
                 }
             }
             else
@@ -94,8 +94,8 @@ namespace ProjectWpfApp1
                 }
                 else if (action == "Просмотр инвентаря")
                 {
-                    ToggleView();
                     Print("");
+                    ToggleView();
                 }
             }
         }
